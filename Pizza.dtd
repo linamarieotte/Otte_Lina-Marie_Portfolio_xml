@@ -1,0 +1,12 @@
+<!DOCTYPE pizzaBestellung [
+<!ELEMENT pizzaBestellung (Kunde)>
+<!ELEMENT Kunde (Name, Adresse, PLZ, Ort, Student)?>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Adresse (Straße, Hausnummer)>
+<!ELEMENT Straße (#PCDATA)>
+<!ELEMENT Student (Matrikelnummer, Studienort)>
+<!ELEMENT Matrikelnummer (#PCDATA)>
+<!ELEMENT Studienort (#PCDATA)>
+
+
+]>
